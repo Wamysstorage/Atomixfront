@@ -1,0 +1,347 @@
+.partners2HeaderLink {
+    font-weight: 800;
+    color: #303030;
+}
+
+.partners2-partnersLine {
+    margin: 76px 0 0 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    line-height: 80px;
+}
+
+.partners2-cardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+}
+
+.content2Header {
+    font-family: Bai Jamjuree;
+}
+
+.partners2-card {
+    width: 281px;
+    height: 119px;
+    background-color: #303030;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.partners2-card>p {
+    margin-top: 20px;
+    /*background-color: red;*/
+    height: 28px;
+}
+
+.partners2-seeMore {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 50px 0 0 60px;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media (max-width: 1554px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 56px 0 0 65px;
+        font-size: 32px;
+        grid-gap: 0 60px;
+    }
+}
+
+@media (max-width: 1542px) {
+    .partners2-cardContainer {
+        grid-column-gap: 20px;
+    }
+    .aboutPartnersInfoContainer {
+        grid-column-gap: 20px;
+    }
+}
+
+@media (max-width: 1427px) {
+    .blurContainer {
+        padding: 83px 100px 0 54px;
+    }
+}
+
+
+@media (max-width: 1387px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 56px 0 0 65px;
+        font-size: 30px;
+        grid-gap: 0 30px;
+    }
+    .partners2Header {
+        font-size: 42px;
+    }
+    .partners2-seeMore {
+        font-size: 28px;
+    }
+    .partners2-card {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .partners2AboutUserPartnersContainer {
+        font-size: 28px;
+        grid-gap: 0 10px;
+        grid-template-areas:
+            'TotalPartnersContainer'
+            'partnersBonusIncomeContainer'
+            'firstLinePartnersContainer'
+    ;
+    }
+    .partners2-cardContainer {
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+    .partners2-card {
+        width: 210px;
+        height: 100px;
+        font-size: 20px;
+    }
+    .partners2-card>p {
+        margin-top: 15px;
+        height: 25px;
+    }
+    .partners2-seeMore {
+        margin: 40px 0 0 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .partners2-cardContainer {
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+    .partners2Header {
+        font-size: 38px;
+    }
+    .partners2-partnersLine {
+        margin: 30px 0 0 30px;
+        font-size: 30px;
+    }
+    .partners2-partnersLine {
+        margin: 30px 0 0 30px;
+        font-size: 30px;
+    }
+    .partners2-cardContainer {
+        margin-top: 40px;
+    }
+    .aboutPartnersInfoContainer {
+        margin-left: 30px;
+    }
+    .partners2-seeMore {
+        margin-left: 30px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .content2aboutPartnersInfoContainer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+    .partners2-partnersLine {
+        font-size: 26px;
+    }
+    .content2aboutPartnersInfoContainer {
+        font-size: 22px;
+        line-height: 60px;
+    }
+    .partners2-card {
+        font-size: 18px;
+    }
+    .partners2-seeMore {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 874px) {
+    .partners2-card {
+        width: 170px;
+    }
+}
+
+@media (max-width: 800px ) {
+    .partners2-card {
+        width: 160px;
+    }
+}
+
+@media (max-width: 792px) {
+    .content2aboutPartnersInfoContainer>div {
+        width: 110%;
+    }
+}
+
+@media (max-width: 777px) {
+    .content2aboutPartnersInfoContainer>div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 722px) {
+
+
+    .content2aboutPartnersInfoContainer {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .partners2HeaderLink {
+        display: block;
+    }
+    .content2Header {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .partners2-partnersLine {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .partners2-card>p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .blurContainer2 {
+        padding: 50px 100px 0 54px;
+    }
+    .content2aboutPartnersInfoContainer {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .partners2HeaderLink {
+        display: block;
+    }
+    .content2Header {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .partners2-partnersLine {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .partners2-card>p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .partners2AboutUserPartnersContainer {
+        font-size: 18px;
+    }
+    .partners2-card {
+        width: 140px;
+        height: 80px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .partners2-card>p:last-child {
+        margin-top: 0;
+    }
+    .blurContainer2 {
+        padding: 50px 30px 0 30px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .content2aboutPartnersInfoContainer {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .aboutPartnersInfoContainer {
+        margin-left: 0;
+    }
+    .partners2-partnersLine {
+        margin-left: 0;
+    }
+    .partners2-seeMore {
+        margin-left: 0;
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .partners2-card {
+        width: 130px;
+    }
+    .partners2-cardContainer {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (max-width: 402px) {
+    .partners2-card {
+        width: 110px;
+        height: 70px;
+        font-size: 14px;
+    }
+    .partners2-card>p {
+        margin-top: 10px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 424px) {
+    .partners2AboutUserPartnersContainer {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+    .partners2Header {
+        font-size: 22px;
+    }
+    .partners2AboutUserPartnersContainer {
+        font-size: 14px;
+        margin: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 367px) {
+    .partners2AboutUserPartnersContainer {
+        margin: 20px 0 0 0;
+        font-size: 13px;
+    }
+    .partners2ContentContainer {
+        margin: 53px 0 0 4px;
+    }
+    .partners2-seeMore {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .partners2-partnersLine {
+        font-size: 22px;
+    }
+    .blurContainer2 {
+        padding: 35px 10px 0 10px;
+    }
+    .partners2-cardContainer {
+        grid-column-gap: 5px;
+    }
+}

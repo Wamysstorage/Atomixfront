@@ -1,0 +1,352 @@
+.blurContainer {
+    padding: 83px 100px 0 94px;
+}
+
+.inBlurAllContainer {
+    width: 100%;
+    height: auto;
+    color: #303030;
+}
+.inBlurAllContainer>div>h1 {
+    display: inline-block;
+    font-size: 45px;
+    font-family: Bai Jamjuree, serif;
+}
+
+.copyInputContainer {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.copyInputContainer>span {
+    font-family: Roboto, serif;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 34px;
+}
+
+.copyInputContainer>input {
+    height: 62px;
+    font-size: 25px;
+    padding: 0 0 0 24px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.copyButton {
+    width: 67px;
+    height: 62px;
+    border: none;
+    outline: none;
+    background-color: #303030;
+    background-image: url("../../img/copyBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 7px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.aboutPartnersInfoContainer {
+    margin-top: 56px;
+    margin-left: 54px;
+}
+
+.aboutPartnersInfoContainer {
+    display: grid;
+    grid-template-areas: 'totalPartnersContainer partnersIncomeBonusContainer'
+                         'firstLinePartnersContainer ... ';
+    font-size: 35px;
+    line-height: 80px;
+    grid-column-gap: 207px;
+}
+.totalPartnersContainer {
+    grid-area: totalPartnersContainer;
+}
+.partnersIncomeBonusContainer {
+    grid-area: partnersIncomeBonusContainer;
+}
+.firstLinePartnersContainer {
+    grid-area: firstLinePartnersContainer;
+}
+
+.totalPartnersContainerValue {
+    float: right;
+}
+.partnersIncomeBonusContainerValue {
+    float: right;
+}
+
+.firstLinePartnersContainerValue {
+    float: right;
+}
+
+.partnersLineContainer {
+    font-size: 32px;
+    line-height: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px 0;
+    margin-left: 54px;
+    margin-top: 76px;
+}
+.partnersLineContainer>a {
+    width: max-content;
+    color: #303030;
+}
+.partners1-seeMore {
+    text-decoration: underline;
+    font-size: 30px;
+    line-height: 80px;
+    margin-top: 50px;
+    margin-left: 54px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.activePatrnersLineStyles {
+    color: #303030;
+}
+
+.passivePartnersLineStyles {
+    opacity: .5;
+    text-decoration: none;
+}
+
+@media (max-width: 1690px) {
+
+    .aboutPartnersInfoContainer {
+        font-size: 30px;
+        line-height: 75px;
+        grid-column-gap: 80px;
+    }
+    .inBlurAllContainer>div>h1 {
+        font-size: 42px;
+    }
+    .copyInputContainer>span {
+        font-size: 28px;
+        line-height: 75px;
+    }
+    .copyInputContainer>input {
+        width: auto;
+    }
+    .copyButton {
+        bottom: 5px;
+    }
+    .partnersLineContainer {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width: 1390px) {
+
+    .copyInputContainer>input {
+        height: 55px;
+        font-size: 20px;
+    }
+    .copyButton {
+        height: 55px;
+        width: 62px;
+        bottom: 8px;
+    }
+    .copyInputContainer>span {
+        font-size: 26px;
+        margin-right: 20px;
+    }
+    .inBlurAllContainer>div>h1 {
+        font-size: 38px;
+    }
+    .aboutPartnersInfoContainer {
+        font-size: 24px;
+        line-height: 70px;
+        grid-column-gap: 50px;
+    }
+    .partnersLineContainer {
+        font-size: 24px;
+    }
+    .partners1-seeMore {
+        font-size: 24px;
+    }
+    .blurContainer {
+        padding: 83px 50px 0 60px;
+    }
+
+}
+
+@media (max-width: 1160px) {
+
+    .inBlurAllContainer>div>h1 {
+        display: block;
+        padding-left: 20px;
+    }
+    .copyInputContainer {
+        display: block;
+        float: right;
+        position: relative;
+        width: 100%;
+    }
+    .copyInputContainer>input {
+        height: 55px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .copyButton {
+        bottom: 0;
+        background-size: 60% 60%;
+    }
+    .aboutPartnersInfoContainer {
+        margin-top: 156px;
+        margin-left: 20px;
+    }
+    .copyInputContainer>span {
+        padding-left: 20px;
+    }
+    .blurContainer {
+        padding: 83px 50px 0 50px;
+    }
+    .partnersLineContainer {
+        margin-left: 40px;
+    }
+    .partners1-seeMore {
+        margin-left: 40px;
+    }
+    .aboutPartnersInfoContainer {
+        grid-template-areas: 'totalPartnersContainer totalPartnersContainer'
+                             'firstLinePartnersContainer firstLinePartnersContainer'
+                             'partnersIncomeBonusContainer partnersIncomeBonusContainer';
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .partnersLineContainer {
+        grid-template-columns: auto auto;
+        grid-gap: 50px 10px;
+    }
+}
+
+@media (max-width: 880px) {
+    .partnersLineContainer {
+        font-size: 22px;
+    }
+    .aboutPartnersInfoContainer {
+        font-size: 22px;
+    }
+    .partners1-seeMore {
+        font-size: 22px;
+    }
+    .partners1BlurContainer {
+        padding: 83px 54px 0 54px !important;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .partners1BlurContainer {
+        padding: 54px 54px 0 54px !important;
+    }
+    .blurContainer {
+        padding: 50px 50px 0 30px;
+    }
+    .inBlurAllContainer>div>h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .copyInputContainer>span {
+        font-size: 18px;
+    }
+    .copyInputContainer>input {
+        height: 48px;
+    }
+    .copyButton {
+        height: 48px;
+        width: 55px;
+        background-size: 55% 55%;
+    }
+    .aboutPartnersInfoContainer {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .partnersLineContainer {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .partners1-seeMore {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .partners1BlurContainer {
+        padding: 54px 40px 0 40px !important;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .partners1BlurContainer {
+        padding: 30px 50px 0 20px !important;
+    }
+    .blurContainer {
+        padding: 30px 50px 0 20px;
+    }
+    .inBlurAllContainer>div>h1 {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .copyInputContainer>span {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 7px;
+        padding-left: 10px;
+
+    }
+    .copyInputContainer>input {
+        height: 35px;
+        font-size: 12px;
+        line-height: 15px;
+        padding-left: 15px;
+    }
+    .copyButton {
+        width: 33px;
+        height: 35px;
+    }
+    .aboutPartnersInfoContainer {
+        margin-top: 85px;
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .partnersLineContainer {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 30px;
+        margin-left: 10px;
+        grid-gap: 25px 25px;
+    }
+    .partners1-seeMore {
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 10px;
+        margin-top: 23px;
+    }
+    .aboutFirstPartnersInfoContainer {
+        margin-left: 0 !important;
+    }
+
+}
+
+
+@media (max-width: 340px) {
+    .aboutPartnersInfoContainer>div {
+        width: 120%;
+    }
+}

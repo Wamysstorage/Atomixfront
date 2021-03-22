@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.overlayLanguage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0, 0, 0, .4);*/
+    z-index: 10;
+    display: none;
+}
+.logoContainer {
+    width: 100%;
+    height: 147px;
+    background-color: #303030;
+}
+
+.logoLinkAImgContainer {
+    display: inline-block;
+}
+
+.logoLink {
+    padding: 35px 0 20px 141px;
+    position: relative;
+}
+
+.language {
+    right: 75px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.language>button {
+    background-color: #303030;
+    border-radius: 3px;
+    display: flex;
+    padding: 10px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ffde2f;
+    outline: none;
+}
+
+.flMr {
+    margin-right: 10px;
+}
+
+.language ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+}
+.language ul li a:hover {
+    background-color: #ffde2f;
+    opacity: 1;
+}
+
+.languageList {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    right: 7%;
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    background-color: #303030;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.languageList>li {
+    margin-top: 10px;
+    background-color: #303030;
+}
+
+.languageList>li>a {
+    font-size: 22px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+    padding: 0 20px;
+}
+
+.lang {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.lang>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.whiteLineContainer {
+    width: 100%;
+    height: 80px;
+    /*padding: 0 0 0 7%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+
+    /*background-color: #fff;*/
+}
+
+.whiteLineContainer>div {
+    display: inline-block;
+}
+.whiteLineInfoSpan {
+    margin-left: 10px;
+}
+
+.whiteLineContainerTotalBalance{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #303030;
+    grid-area: tot;
+    font-weight: bold;
+}
+.whiteLineContainerFirstROI{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #303030;
+    grid-area: whiteLineContainerFirstROI;
+    font-weight: bold;
+}
+.whiteLineContainerFirstID{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #303030;
+    grid-area: whiteLineContainerFirstID;
+    font-weight: bold;
+}
+.whiteLineContainerFirst{
+    font-size: 25px;
+    color: #303030;
+    grid-area: whiteLineContainerFirst;
+}
+.whiteLineContainerFirstText{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 25px;
+    display: inline-block;
+    grid-area: whiteLineContainerFirstText;
+}
+
+.whiteLineContainerFirstText>div:first-child {
+    margin-bottom: 5px;
+}
+
+.burgerMenuPicture {
+    display: none;
+}
+
+@media (max-width: 1625px) {
+    .language {
+        right: 45px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .logoLinkAImgContainer>a>img {
+        width: 110px;
+        height: 82px;
+    }
+
+    .logoLink {
+        padding: 30px 0 20px 135px;
+        height: auto;
+    }
+
+    .language {
+        right: 25px;
+    }
+
+    .whiteLineContainerFirst{
+        font-size: 18px;
+    }
+    .whiteLineContainerFirstText{
+        font-size: 18px;
+    }
+    .whiteLineContainer {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .logoLink {
+        padding: 30px 0 20px 105px;
+        height: auto;
+    }
+
+    .whiteLineContainerFirst{
+        font-size: 16px;
+    }
+    .whiteLineContainerFirstText{
+        font-size: 16px;
+    }
+    .whiteLineContainer {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 777px) {
+    .logoContainer {
+        height: 70px;
+    }
+    .logoLinkAImgContainer>a>img {
+        width: 50px;
+        height: 39px;
+    }
+    .logoLink {
+        padding: 15px 0 15px 46px;
+        height: auto;
+    }
+    .language {
+        right: 23px;
+    }
+    .language>button {
+        padding: 0;
+    }
+    .langArrow {
+        content: url("../../img/media777langugageBtn.png");
+        margin-right: 2px;
+    }
+    .flMr {
+        margin-right: 5px;
+        margin-left: 2px;
+    }
+
+    .userLogo {
+        width: 30px;
+        height: 38px;
+    }
+    .whiteLineContainerFirst{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .whiteLineContainerFirstText{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .whiteLineContainer {
+        font-size: 14px;
+    }
+    .whiteLineContainer {
+        width: 100%;
+        display: grid;
+        grid-template-areas: 'tot tot logOut'
+                            'whiteLineContainerFirst  whiteLineContainerFirstROI logOut'
+                            'whiteLineContainerFirst  whiteLineContainerFirstID logOut';
+        align-items: center !important;
+        margin-top: -13px;
+    }
+    .whiteLineContainerTotalBalance{
+        grid-area: tot;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        color: white;
+        transform: translate(0, -19px);
+    }
+    .logOut {
+        grid-area: logOut;
+    }
+    .burgerMenuPicture {
+        display: inline;
+        transform: translate(40px, 70%);
+    }
+    .logOutPicture {
+        display: none;
+    }
+    .whiteLineContainerFirstID {
+        transform: translate(0, -2px);
+    }
+}
+
+@media (max-width: 700px) {
+    .burgerMenuPicture {
+        transform: translate(27px, 70%);
+    }
+}
+
+@media (max-width: 633px) {
+    .burgerMenuPicture {
+        transform: translate(13px, 70%);
+    }
+}
+
+@media (max-width: 516px) {
+    .burgerMenuPicture {
+        transform: translate(5px, 70%);
+    }
+}
+
+@media (max-width: 450px) {
+    .logoContainer {
+        height: 47px;
+    }
+    .logoLinkAImgContainer>a>img {
+        width: 34px;
+        height: 27px;
+    }
+    .logoLink {
+        padding: 10px 0 9px 26px;
+    }
+    .language {
+        right: 15px;
+        top: 10px;
+    }
+    .langArrow {
+        content: url("../../img/media450languageBtn.png");
+        margin-right: 2px;
+    }
+    .userLogo {
+        width: 21px;
+        height: 27px;
+    }
+    .whiteLineContainerFirst{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .whiteLineContainerFirstText{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .whiteLineContainer {
+        font-size: 11px;
+    }
+    .whiteLineContainer {
+        margin-top: -20px;
+    }
+    .whiteLineContainerTotalBalance{
+        transform: translate(0, -10px);
+    }
+    .whiteLineContainerFirstID {
+        transform: translate(0, -7px);
+    }
+}
+
+@media (max-width: 430px) {
+    .burgerMenuPicture {
+        transform: translate(-2px, 70%);
+    }
+}
+
+@media (max-width: 360px) {
+    .language {
+        right: 5px;
+    }
+    .logoLink {
+        padding: 10px 0 9px 20px;
+    }
+    .whiteLineContainerFirstText{
+        margin-left: 2px;
+    }
+    .whiteLineInfoSpan {
+        margin-left: 2px;
+    }
+}

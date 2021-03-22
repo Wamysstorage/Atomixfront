@@ -1,0 +1,176 @@
+footer {
+    background-color: #303030;
+    height: 120px; /*180px*/
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "one two three icons";
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    grid-area: icons;
+}
+
+.privacy {
+    grid-area: one;
+}
+.privacy>a {
+    font-family: "Bai Jamjuree", serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.amlkycPolicy {
+    grid-area: two;
+}
+.amlkycPolicy>a {
+    font-family: "Bai Jamjuree", serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.termOfUse {
+    grid-area: three;
+}
+.termOfUse>a {
+    font-family: "Bai Jamjuree", serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social>div {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social>div>a {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social>div>a:hover {
+    border: 2px solid #ffde2f;
+}
+
+.fblink:hover .facebookLogo {
+    content: url("../../img/facebookHover.png");
+}
+.instagramLink:hover .instagramLogo {
+    content: url("../../img/instagramIconHover.png");
+}
+.telegramLink:hover .telegramLogo {
+    content: url("../../img/telegramHover.png");
+}
+
+.social>div>a:hover {
+
+}
+
+.social>div>a>img {
+    height: 25px;
+}
+
+@media (max-width: 1200px) {
+    .privacy>a {
+        font-size: 20px;
+    }
+    .amlkycPolicy>a {
+        font-family: "Bai Jamjuree", serif;
+        font-size: 20px;
+    }
+    .termOfUse>a {
+        font-size: 20px;
+    }
+    .social>div>a {
+        width: 50px;
+        height: 50px;
+    }
+    .social>div>a>img {
+        height: 20px;
+    }
+}
+
+@media (max-width: 777px) {
+    footer {
+        height: 120px;
+        margin-top: -2px;
+    }
+    .footer {
+        grid-template-areas: "one three"
+                            "two icons";
+        grid-gap: 20px 0;
+    }
+    .social>div:first-child {
+        padding-left: 0;
+    }
+    .privacy>a {
+        font-size: 15px;
+    }
+    .amlkycPolicy>a {
+        font-size: 15px;
+    }
+    .termOfUse>a {
+        font-size: 15px;
+    }
+    .social>div>a {
+        width: 40px;
+        height: 40px;
+    }
+    .social>div>a>img {
+        height: 15px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    footer {
+        height: 120px;
+    }
+    .footer {
+        grid-gap: 10px 0;
+    }
+    .social>div {
+        padding: 0 5px;
+    }
+    .privacy>a {
+        font-size: 11px;
+    }
+    .amlkycPolicy>a {
+        font-size: 11px;
+    }
+    .termOfUse>a {
+        font-size: 11px;
+    }
+    .social>div>a {
+        width: 30px;
+        height: 30px;
+    }
+    .social>div>a>img {
+        height: 10px;
+    }
+}

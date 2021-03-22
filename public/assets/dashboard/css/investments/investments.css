@@ -1,0 +1,972 @@
+/*my bootstrap class START*/
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 96%;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.col-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+/*my bootstrap class END*/
+
+
+.my_investments{
+    /*border: 1px solid red;*/
+    width: 99%;
+}
+
+/*header START*/
+.inv_header{
+    /*border: 1px solid green;*/
+    margin-left: 90px;
+    margin-top: 83px;
+}
+.inv_header h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 56px;
+    color: #303030;
+}
+/*header END*/
+
+
+/* Tabs START */
+.tabs {
+    /*width: 100%;*/
+    margin-top: 96px;
+    margin-left: 46px;
+    margin-right: 95px;
+}
+
+.tabs-header {
+    display: flex;
+    margin-left: 42px;
+}
+
+.tabs-header__item {
+    padding: 14px 20px;
+    width: 168px;
+    height: 67px;
+    margin-right: 4px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 2px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #303030;
+}
+
+.tabs-header__item.tabs_active {
+    background: #303030;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+.tabs_line{
+    background-color: #303030;
+    border: 3px solid #303030;
+    width: 95%;
+}
+.tabs-content {
+    width: 100%;
+}
+
+.tabs-content__item {
+    display: none;
+    /*border: 1px solid #ccc;*/
+    /*padding: 30px;*/
+}
+
+.tabs-content__item.tabs_active {
+    display: block;
+}
+/* Tabs END */
+/* Modal contents START */
+.modal_buttons_row{
+    margin-top: 13px;
+    margin-left: -26px;
+
+}
+.modal_buttons_row_two{
+    margin-top: 13px;
+    margin-left: 0%;
+}
+.tabs-content .link{
+    width: 208px;
+    height: 120px;
+    padding: 45px 0px;
+    display: inline-block;
+
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 2px solid rgba(48, 48, 48, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #303030;
+}
+/*.modal_link_first{*/
+/*    margin-top: 24px;*/
+/*    margin-left: 39px;*/
+/*}*/
+.modal_link{
+    margin-left: 39px;
+    margin-top: 24px;
+}
+.modal_link_absent{
+    width: 208px;
+    height: 120px;
+    padding: 45px 0;
+    display: inline-block;
+
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(48, 48, 48, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(48, 48, 48, 0.5);
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    /*border: 1px solid #000;*/
+
+    padding: 10px;
+    z-index: 20;
+
+    /*background-color: #fff;*/
+
+    display: none;
+
+    width: 61vw;
+    height: 28rem;
+    background: rgba(48, 48, 48, 0.95);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.modal.is-show,
+.overlay.is-show{
+    display: block;
+}
+.modal .title{
+    text-align: center;
+    margin-top: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.modal .title_two{
+    text-align: center;
+    margin-top: 111px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+.modal__cross{
+    position: absolute;
+    bottom: 8rem;
+    left: 77%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.modal__cross_two{
+    position: absolute;
+    bottom: 7rem;
+    left: 57%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.modal__TopUpBalance{
+    position: absolute;
+    bottom: 8rem;
+    right: 32%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFE663;
+}
+.modal__confirm{
+    position: absolute;
+    bottom: 7rem;
+    right: 57%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFE663;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 10;
+    display: none;
+}
+/* Modal contents END */
+
+/*Tabs Footer START*/
+.tabs-footer{
+    display: none;
+    margin-left: 1%;
+}
+.tbf2{
+    margin-left: 3%;
+}
+.tabs-footer.footer_active{
+    display: block;
+}
+.tabs-footer.footer_active_two{
+    display: block;
+}
+.link.footer_active{
+    background: #303030;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+.link.footer_active_two{
+    background: #303030;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+.modal_link_absent.footer_active{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+}
+.modal_link_absent.footer_active_two{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+}
+.tabs-footer_text{
+    margin-top: 32px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #303030;
+}
+.payNow_button{
+    width: 296px;
+    height: 67px;
+    background: #303030;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 89px;
+    margin-left: 36px;
+    cursor: pointer;
+}
+.payNow_button__two{
+    width: 296px;
+    height: 67px;
+    background: #303030;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 89px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.comming_soon_button {
+    width: 296px;
+    height: 67px;
+    background: #303030;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 89px;
+    margin-left: 36px;
+}
+.comming_soon_button__two {
+    width: 296px;
+    height: 67px;
+    background: #303030;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 89px;
+    margin-left: 25px;
+}
+/*Tabs Footer END*/
+
+@media (max-width: 1661px){
+    .modal_buttons_row{
+        margin-left: -21px;
+    }
+    .col-5 {
+        flex: 0 0 99.666667%;
+        max-width: 96.666667%;
+        /*border: 1px solid red;*/
+    }
+    .modal__cross {
+        left: 73%;
+        bottom: 7rem;
+    }
+    .modal__TopUpBalance {
+        right: 44%;
+        bottom: 7rem;
+    }
+    .tabs_line{
+        width: 100%;
+    }
+}
+@media (max-width: 1440px){
+    .modal_buttons_row {
+        margin-top: 13px;
+        margin-left: -17px;
+    }
+    .payNow_button__two{
+        margin-left: 36px;
+    }
+    .comming_soon_button__two{
+        margin-left: 36px;
+    }
+}
+@media (max-width: 1349px){
+    .modal_buttons_row {
+        margin-top: 13px;
+        margin-left: -16px;
+    }
+}
+@media (max-width: 1280px){
+    .modal_buttons_row {
+        margin-top: 13px;
+        margin-left: -15px;
+    }
+}
+@media (max-width: 1024px){
+    .modal_buttons_row {
+        margin-top: 13px;
+        margin-left: -11px;
+    }
+}
+@media (max-width: 982px){
+
+    .inv_header{
+        margin-left: 4%;
+    }
+    .tabs {
+        width: 91%;
+        margin-left: 0;
+    }
+    .tabs_line {
+        width: 100%;
+    }
+}
+@media (max-width: 866px){
+    .my_investments{
+        max-width: 63vw;
+        /*border: 1px solid #6f42c1;*/
+    }
+    .inv_header h2{
+        font-size: 40px;
+    }
+    .tabs-content .link {
+        width: 165px;
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .modal_link_absent {
+        width: 165px;
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .tabs-footer_text {
+        margin-left: 7%;
+    }
+    .payNow_button, .payNow_button__two{
+        margin-top: 41px;
+    }
+    .modal .title, .modal__TopUpBalance, .modal__cross{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .modal__cross{
+        left: 66%;
+    }
+    .modal .title_two, .modal__confirm, .modal__cross_two{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
+@media (max-width: 777px) {
+    .my_investments {
+        max-width: 82vw;
+    }
+    .inv_header{
+        margin-left: 11%;
+        margin-top: 38px;
+    }
+    .inv_header h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .tabs{
+        margin-top: 35px;
+        width: 94%;
+        margin-left: 60px;
+    }
+    .tabs-header{
+        margin-left: 38px;
+    }
+    .tabs-header__item{
+        padding: 24px 36px;
+        width: 210px;
+        height: 86px;
+        margin-right: 37px;
+    }
+    .tabs-content {
+        width: 100%;
+    }
+    .tabs_line {
+        width: 74vw;
+        border: 2px solid #303030;
+        margin-left: -19px;
+    }
+    .tabs-content .link{
+        width: 210px;
+        height: 101px;
+        font-size: 25px;
+        line-height: 29px;
+        padding: 34px 0;
+    }
+    .tabs-content .link{
+        width: 210px;
+        height: 101px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .modal_link_absent{
+        width: 210px;
+        height: 101px;
+        font-size: 25px;
+        line-height: 29px;
+        padding: 34px 0;
+    }
+    .modal_buttons_row {
+        margin-top: 13px;
+        margin-left: -11px;
+    }
+    .modal_buttons_row_two {
+        margin-top: 13px;
+        margin-left: 0;
+    }
+    .modal_link {
+        margin-left: 37px;
+        margin-top: 32px;
+    }
+    .tabs-footer_text{
+        margin-left: 46px;
+    }
+    .payNow_button, .comming_soon_button{
+        width: 458px;
+        height: 98px;
+        margin-top: 82px;
+        margin-left: 27px;
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .payNow_button__two, .comming_soon_button__two{
+        width: 458px;
+        height: 98px;
+        margin-top: 82px;
+        margin-left: 27px;
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .modal{
+        left: 44%;
+    }
+}
+@media (max-width: 695px) {
+    .my_investments {
+        max-width: 79vw;
+    }
+    .inv_header{
+        margin-left: 12%;
+        margin-top: 24px;
+    }
+    .inv_header h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .tabs-header{
+        margin-left: 0%;
+    }
+    .tabs-header__item{
+        padding: 16px 18px;
+        width: 145px;
+        height: 60px;
+        margin-right: 26px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .tabs_line {
+        width: 70vw;
+        border: 2px solid #303030;
+    }
+    .tabs-content .link {
+        width: 145px;
+        height: 70px;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 22px 0;
+    }
+    .modal_link_absent{
+        width: 145px;
+        height: 70px;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 22px 0;
+    }
+    .modal_buttons_row {
+        margin-top: 12px;
+        margin-left: -37px;
+    }
+    .modal_buttons_row_two{
+        margin-top: 12px;
+        margin-left: -27px;
+    }
+    .modal_link {
+        margin-left: 26px;
+        margin-top: 22px;
+    }
+    .tabs-footer_text {
+        margin-left: -10px;
+    }
+    .tabs-footer_text{
+        margin-top: 22px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .payNow_button, .comming_soon_button {
+        width: 316px;
+        height: 67px;
+        margin-top: 43px;
+        margin-left: -12px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .payNow_button__two, .comming_soon_button__two {
+        width: 316px;
+        height: 67px;
+        margin-top: 43px;
+        margin-left: -12px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .modal{
+        width: 79vw;
+    }
+}
+@media (max-width: 540px) {
+    .tabs_line {
+        width: 70vw;
+        border: 2px solid #303030;
+        margin-left: -33px;
+    }
+    .modal_buttons_row {
+        margin-top: 12px;
+        margin-left: -35px;
+    }
+    .modal{
+        width: 76vw;
+        height: 18rem;
+        left: 42%;
+    }
+    .modal .title, .modal .title_two{
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 41px;
+    }
+    .modal__TopUpBalance, .modal__cross, .modal__confirm, .modal__cross_two{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .modal__TopUpBalance {
+        right: 30vw;
+        bottom: 7rem;
+    }
+    .modal__cross, .modal__cross_two {
+        left: 14vw;
+        bottom: 4rem;
+    }
+    .modal__confirm{
+        right: 45.5vw;
+        border: 7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .my_investments {
+        max-width: 77vw;
+    }
+    .tabs {
+        margin-top: 79px;
+        width: 100%;
+        margin-left: 36px;
+    }
+    .tabs-header {
+        margin-left: -1px;
+    }
+    .tabs-header__item {
+        padding: 16px 18px;
+        width: 145px;
+        height: 60px;
+        margin-right: 26px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .tabs_line {
+        width: 84vw;
+        border: 2px solid #303030;
+        margin-left: -42px;
+    }
+    .modal_buttons_row {
+        margin-top: 19px;
+        margin-left: -35px;
+    }
+    .modal_buttons_row_two {
+        margin-top: 19px;
+        margin-left: -28px;
+    }
+    .modal__cross {
+        left: 10.5vw;
+        bottom: 4rem;
+    }
+    .modal__cross_two{
+        left: 12vw;
+    }
+}
+@media (max-width: 455px) {
+    .inv_header {
+        margin-left: 12%;
+        margin-top: 19px;
+    }
+    .inv_header h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .tabs {
+        margin-top: 31px;
+        width: 100%;
+        margin-left: 66px;
+    }
+    .tabs-header{
+        margin-left: -2px;
+    }
+    .tabs-header__item {
+        padding: 11px 11px;
+        width: 95px;
+        height: 39px;
+        margin-right: 26px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .tabs_line{
+        width: 72vw;
+        margin-left: -42px;
+    }
+    .tabs-content{
+        width: 96%;
+    }
+    .tabs-content .link {
+        width: 110px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 22px 0;
+    }
+    .modal_link_absent {
+        width: 110px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 22px 0;
+    }
+    .modal_link {
+        margin-left: 11px;
+        margin-top: 11px;
+    }
+    .modal_buttons_row {
+        margin-top: 19px;
+        margin-left: -28px;
+    }
+    .modal_buttons_row_two {
+        margin-top: 19px;
+        margin-left: -22px;
+    }
+    .tabs-footer_text {
+        margin-top: 17px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .payNow_button, .comming_soon_button {
+        width: 230px;
+        height: 67px;
+        margin-top: 22px;
+        margin-left: -21px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .payNow_button__two, .comming_soon_button__two {
+        width: 230px;
+        height: 67px;
+        margin-top: 22px;
+        margin-left: -21px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .modal__cross {
+        left: 8vw;
+    }
+    .modal__cross_two {
+        left: 10.5vw;
+    }
+}
+@media (max-width: 414px) {
+    .modal__cross {
+        left: 5vw;
+    }
+    .modal__cross_two {
+        left: 9vw;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .tabs{
+        margin-left: 46px;
+    }
+    .tabs_line{
+        margin-left: -30px;
+    }
+    .modal_buttons_row {
+        margin-top: 19px;
+        margin-left: -25px;
+    }
+    .modal_buttons_row_two {
+        margin-top: 19px;
+        margin-left: -20px;
+    }
+    .modal{
+        height: 13rem;
+    }
+    .modal .title, .modal .title_two {
+        font-size: 17px;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+    .modal__TopUpBalance, .modal__cross, .modal__confirm, .modal__cross_two {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .modal__TopUpBalance {
+        right: 20.5vw;
+        bottom: 5rem;
+    }
+    .modal__cross {
+        left: 31vw;
+        bottom: 2rem;
+    }
+    .modal__confirm{
+        right: 29.5vw;
+        bottom: 5rem;
+    }
+    .modal__cross_two {
+        left: 30.5vw;
+        bottom: 2rem;
+    }
+}
+@media (max-width: 360px) {
+    .tabs{
+        margin-left: 38px;
+    }
+    .tabs_line {
+        margin-left: -23px;
+    }
+}
+@media (max-width: 350px) {
+    .tabs {
+        margin-top: 31px;
+        width: 100%;
+        margin-left: 21px;
+    }
+    .tabs_line {
+        width: 81vw;
+        margin-left: -26px;
+    }
+    .modal__cross_two {
+        left: 29.5vw;
+        bottom: 2rem;
+    }
+}
+@media (max-width: 320px) {
+    .modal_buttons_row_two {
+        margin-top: 19px;
+        margin-left: -21px;
+    }
+    .modal__cross {
+        left: 28vw;
+        bottom: 2rem;
+    }
+    .modal__cross_two {
+        left: 27.5vw;
+        bottom: 2rem;
+    }
+}
+

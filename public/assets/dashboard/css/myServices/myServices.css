@@ -1,0 +1,516 @@
+.myServicesBlur {
+    /*border: 1px solid red;*/
+    padding: 0;
+}
+
+.myServicesContentContainer {
+    padding: 73px 191px 0 90px;
+    /*border: 1px solid red;*/
+    min-height: 400px;
+}
+
+.myServicesHeaderText {
+    font-family: Bai Jamjuree, serif;
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: bold;
+    color: #303030 ;
+}
+
+.myServicesCheckoutButtonsContainers {
+    margin-top: 106px;
+}
+
+.myServicesLine {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #303030;
+    background-color: #303030;
+    border-radius: 1px;
+}
+
+.myServicesInvestmentsDiv {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: Roboto, serif;
+    cursor: pointer;
+    padding: 16px 39px;
+    border: 2px solid #C1C1C1;
+    border-radius: 5px;
+    border-bottom: none;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.myServicesAtomixLifeDiv {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: Roboto, serif;
+    cursor: pointer;
+    padding: 16px 39px;
+    border: 2px solid #C1C1C1;
+    border-radius: 5px;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.myServicesInvestmentsText {
+    color: #303030;
+    user-select: none;
+}
+.myServicesAtomixLifeText {
+    color: #303030;
+    user-select: none;
+}
+
+.myServicesActiveBtn {
+    border-color: #303030;
+    background-color: #303030;
+}
+
+.myServicesActiveText {
+    color: #fff;
+}
+.myServicesInvestmentsContentContainer {
+    width: 817px;
+    min-height: 425px;
+    margin-top: 28px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 405px 405px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.myServicesNameOfPackageLeft {
+    min-height: 450px;
+    width: 403px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.myServicesActivationDateRight {
+    min-height: 450px;
+    width: 402px;
+    display: inline-block;
+    background-color: #fff;
+    border-left: 1px solid #c1c1c1;
+}
+
+.myServicesNameOfPackageLeft>h3 {
+    color: #303030;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: "Bai Jamjuree", serif;
+    margin: 21px 47px;
+}
+.myServicesActivationDateRight>h3 {
+    color: #303030;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: "Bai Jamjuree", serif;
+    margin: 21px 47px;
+}
+
+.myServicesNameOfPackageLeft>ul {
+    color: #303030;
+    list-style: none;
+    margin-left: 30px;
+    padding-bottom: 37px;
+}
+.myServicesActivationDateRight>ul {
+    color: #303030;
+    list-style: none;
+    margin-left: 50px;
+    padding-bottom: 37px;
+}
+
+.myServicesActivationDateRight>ul>li {
+    font-size: 40px;
+    line-height: 50px;
+    /*margin-left: 30px;*/
+}
+.myServicesNameOfPackageLeft>ul>li {
+    font-size: 40px;
+    line-height: 50px;
+    /*margin-left: 30px;*/
+}
+
+/*atomix life*/
+
+.myServicesAtomixLifeContentContainer {
+    width: 1124px;
+    height: auto;
+    border: 1px solid black;
+    display: none;
+    margin-top: 27px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 53px 0;
+}
+.myServicesAtomixLifeCard {
+    width: 514px;
+    height: 349px;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    border-radius: 10px;
+    position: relative;
+}
+.myServicesAtomixLifeCard>p {
+    margin: 22px 0 0 47px;
+    color: #303030;
+    font-family: "Bai Jamjuree", serif;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.myServicesProgressBarBlockContainer {
+    margin-top: 39px;
+    margin-left: 34px;
+}
+.myServicesProgressBarBlockContainer>p {
+    margin-left: 39px;
+    font-family: "Bai Jamjuree", serif;
+    font-size: 30px;
+    line-height: 37px;
+    color: #303030;
+}
+.myServicesProgressBarBlockContainer>span {
+    display: inline-block;
+    font-family: "Bai Jamjuree", serif;
+    color: #303030;
+    font-size: 30px;
+    line-height: 37px;
+    position: absolute;
+    margin-left: 52px;
+    margin-top: 36px;
+}
+
+.myServicesProgressContainer {
+    margin-top: 36px;
+}
+
+.myServicesProgressContainer {
+    width: 280px;
+    height: 33px;
+    border: 2px solid #303030;
+    border-radius: 5px;
+    display: inline-block;
+}
+.myServicesProgress {
+    width: 30%;
+    height: 29px;
+    background-color: #FFE663;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 1448px) {
+
+    .myServicesContentContainer {
+        padding: 50px 90px 0 90px;
+    }
+
+}
+@media (max-width: 1347px) {
+    .myServicesInvestmentsContentContainer {
+        width: 617px;
+        grid-template-columns: 305px 305px;
+    }
+    .myServicesNameOfPackageLeft {
+        width: 303px;
+    }
+    .myServicesActivationDateRight {
+        width: 302px;
+    }
+
+    .myServicesActivationDateRight>h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 18px 40px;
+    }
+    .myServicesNameOfPackageLeft>h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 18px 40px;
+    }
+    .myServicesActivationDateRight>ul>li {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .myServicesNameOfPackageLeft>ul>li {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .myServicesNameOfPackageLeft>ul {
+        margin-left: 10px;
+    }
+    .myServicesActivationDateRight>ul {
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 1097px) {
+
+    .myServicesContentContainer {
+        padding: 30px 40px 0 50px;
+    }
+
+    .myServicesHeaderText {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .myServicesCheckoutButtonsContainers {
+        margin-top: 90px;
+    }
+
+    .myServicesInvestmentsDiv {
+        font-size: 28px;
+        line-height: 33px;
+        padding: 15px 30px;
+        margin-left: 15px;
+    }
+    .myServicesAtomixLifeDiv {
+        font-size: 28px;
+        line-height: 33px;
+        padding: 15px 30px;
+    }
+    .myServicesInvestmentsContentContainer {
+        width: 527px;
+        grid-template-columns: 255px 255px;
+    }
+    .myServicesNameOfPackageLeft {
+        width: 253px;
+    }
+    .myServicesActivationDateRight {
+        width: 252px;
+    }
+    .myServicesActivationDateRight>h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 12px 35px;
+    }
+    .myServicesNameOfPackageLeft>h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 12px 35px;
+    }
+    .myServicesNameOfPackageLeft>ul {
+        margin-left: 5px;
+    }
+    .myServicesActivationDateRight>ul {
+        margin-left: 15px;
+    }
+    .myServicesActivationDateRight>ul>li {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .myServicesNameOfPackageLeft>ul>li {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+}
+@media (max-width: 896px) {
+    .myServicesContentContainer {
+        padding: 0;
+    }
+    .myServicesInvestmentsContentContainer {
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+    .myServicesNameOfPackageLeft {
+        width: 49%;
+    }
+    .myServicesActivationDateRight {
+        width: 49%;
+    }
+    .myServicesHeaderContainer {
+        margin-top: 38px;
+        margin-left: 69px;
+    }
+    .myServicesHeaderText {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .myServicesCheckoutButtonsContainers {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .myServicesBtnContainer {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .myServicesAtomixLifeDiv {
+        width: 210px;
+        font-size: 28px;
+        line-height: 33px;
+        padding: 15px 25px;
+    }
+    .myServicesInvestmentsDiv {
+        width: 210px;
+        font-size: 28px;
+        line-height: 33px;
+        padding: 15px 25px;
+    }
+
+    .myServicesNameOfPackageLeft>h3 {
+        width: 166px;
+        font-size: 20px;
+        line-height: 27px;
+        margin: 12px 35px;
+    }
+    .myServicesActivationDateRight>h3 {
+        width: 150px;
+        font-size: 20px;
+        line-height: 27px;
+        margin: 12px 35px;
+    }
+
+}
+
+@media (max-width: 777px) {
+    .myServicesCheckoutButtonsContainers {
+        width: 100%;
+    }
+    .myServicesHeaderContainer {
+        margin: 24px 43px;
+    }
+    .myServicesBtnContainer {
+        margin-top: 79px;
+    }
+    .myServicesInvestmentsDiv {
+        width: 160px;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 14px 17px;
+    }
+    .myServicesAtomixLifeDiv {
+        width: 145px;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 14px 17px;
+    }
+
+    .myServicesNameOfPackageLeft>h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 41px 0 0 12px;
+    }
+    .myServicesActivationDateRight>h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 41px 0 0 12px;
+    }
+    .myServicesNameOfPackageLeft>ul {
+        padding-left: 25px;
+        margin-top: 20px;
+    }
+    .myServicesActivationDateRight>ul {
+        padding-left: 51px;
+        margin-top: 20px;
+    }
+    .myServicesActivationDateRight>ul>li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .myServicesNameOfPackageLeft>ul>li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
+
+@media (max-width: 490px) {
+    .myServicesHeaderText {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+@media (max-width: 480px) {
+    .myServicesHeaderText {
+        font-size: 26px;
+        line-height: 33px;
+    }
+}
+@media (max-width: 470px) {
+    .myServicesHeaderText {
+        font-size: 24px;
+        line-height: 31px;
+    }
+}
+
+@media (max-width: 430px) {
+    .myServicesHeaderContainer {
+        margin: 22px 32px;
+    }
+    .myServicesHeaderText {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .myServicesBtnContainer {
+        margin-top: 30px;
+    }
+    .myServicesInvestmentsDiv {
+        width: 100px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 11px 9px;
+    }
+    .myServicesAtomixLifeDiv {
+        width: 90px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 11px 9px;
+    }
+    .myServicesInvestmentsContentContainer {
+        width: 100%;
+        margin-top: 39px;
+        grid-template-columns: auto auto;
+    }
+    /*.myServicesInvestmentsContentContainer {*/
+    /*    width: 258px;*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 120px 120px;*/
+    /*}*/
+    .myServicesHeaderText {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .myServicesNameOfPackageLeft>h3 {
+        width: 100px;
+        font-size: 11px;
+        line-height: 14px;
+        margin: 27px 0 0 8px;
+    }
+    .myServicesActivationDateRight>h3 {
+        width: 100px;
+        font-size: 11px;
+        line-height: 14px;
+        margin: 27px 0 0 8px;
+    }
+    .myServicesNameOfPackageLeft>ul {
+        padding-left: 15px;
+        margin-top: 13px;
+        margin-left: 0;
+    }
+    .myServicesActivationDateRight>ul {
+        padding-left: 30px;
+        margin-top: 13px;
+        margin-left: 0;
+    }
+    .myServicesActivationDateRight>ul>li {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .myServicesNameOfPackageLeft>ul>li {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

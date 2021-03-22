@@ -1,0 +1,529 @@
+.ifSettingsPasswordUpdated{
+    top: 145px;
+    left: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 300px;
+    background-color: rgba(48, 48, 48, 0.85);
+    border-radius: 20px;
+    visibility: hidden;
+}
+.ifSettingsPasswordUpdated>p{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+.allSettingsContainer{
+    height: 100vh;
+    position: relative;
+}
+.settingHeader{
+    font-family: Bai Jamjuree;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #303030;
+}
+.settingsInformation{
+    justify-content: space-around;
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas: 
+    'photo name email number'
+    'photo logIn country verify';
+}
+
+.settingsPageInfo{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.5);
+}
+.settingsPageInfoInfo{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 500;
+    color:rgba(48, 48, 48, 1);
+}
+.settingsPageName{
+    grid-area:name ;
+}
+.settingsPageLogIn{
+    grid-area: logIn;
+}
+.settingsPageEMail{
+    grid-area: email;
+}
+.settingsPagePhoneNumber{
+    grid-area: number;
+}
+.settingsPageCountry{
+    grid-area: country;
+}
+.settingsPageVerification{
+    position: relative;
+    grid-area: verify;
+}
+.settingsPhoto{
+    grid-area: photo;
+}
+.changePassword{
+    position: absolute;
+    left: 25%;
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 25px;
+}
+.settingsPasswordChangeInputNames{
+    font-family: Roboto;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    line-height: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(48, 48, 48, 0.5);
+}
+.settingsPasswordChangeInput{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgba(48, 48, 48, 1);
+    height: 45px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(48, 48, 48, 1);
+    outline: none;
+}
+.settingsPageVerifyInputDiv{
+    display: flex;
+    justify-content: center;
+    border-radius:0 10px 10px 0px;
+    left: 120px;
+    top: 5px;
+    position: absolute;
+    background: rgba(48, 48, 48, 1);
+    width: 80px;
+    font-size: 16px;
+    height:40px;
+}
+.settingsPageVerifyInput{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(48, 48, 48, 1);
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(48, 48, 48, 1);
+    height: 40px;
+}
+.settingsPageVerifyInputDiv>p{
+    font-family: Roboto;
+    margin-top: 9px;
+    color: white;
+}
+.settingsPasswordChangeUpdateButton{
+    font-family: Roboto;
+    width: 180px;
+    height: 45px;
+    background: rgba(48, 48, 48, 1);
+    color:  rgba(255, 255, 255, 1);     
+    border-radius: 10px;
+    outline: none;  
+    font-size: 22px;
+    font-weight: 500;
+}
+.settingsPasswordChangeHeading{
+    font-family: Roboto;
+    color: rgba(48, 48, 48, 1);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+
+@media(max-width:480px){ 
+    .ifSettingsPasswordUpdated>p{
+        font-size: 25px;
+    }
+    .ifSettingsPasswordUpdated{
+        width: 209px;
+        height: 100px;
+        top: 370px;
+        left: 42px;
+    }
+    .settingsPasswordChangeInputNames {
+        margin-bottom: 9px;
+        font-size: 15px;
+    }    
+    .changePassword {
+        margin-left: 26px;
+        grid-gap: 25px;
+        margin-top: 45px;
+        left: 5%;
+    }
+    .settingsPageVerifyInputDiv{
+        left: 135px;
+        top: 15px;
+        height: 40px;
+        border-radius:0 5px 5px 0px;
+    }
+    .settingsPageVerifyInputDiv>p{
+        margin-top: 10px;
+    }
+    .settingsPageVerifyInput{
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .settingsPageInfoInfo{
+        font-size: 19px;
+    }
+    .settingsPageInfo{
+        font-size: 16px;
+    }
+    .settingsPhoto>img{
+        width: 107px;
+        height: 107px;
+    }
+    .settingHeader{
+        margin-left: 36px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .settingsPasswordChangeInput{
+        font-size: 16px;
+        width: 210px;
+        height: 36px;
+        border-radius: 5px;
+    }
+    .backgroundWithoutTopRightRectangle{
+        background: rgba(255, 230, 99, 1) !important;
+    }    
+    .allSettingsContainer{
+        width: 298px;
+    }
+    .settingsInformation{         
+        padding-top: 20px;
+        margin-left: 26px;
+        grid-gap: 15px;     
+        grid-template-areas: 
+        'photo name'
+        'photo logIn'
+        'country email'
+        'number number'
+        'verify verify';
+    }
+    .settingsPasswordChangeHeading{
+        font-size: 18px;
+    }
+    .settingsPasswordChangeUpdateButton{
+        font-size: 16px;
+        width: 210px;
+        height: 36px;
+    }
+}
+
+@media(max-width:375px){ 
+    .ifSettingsPasswordUpdated>p{
+        font-size: 25px;
+    }
+    .ifSettingsPasswordUpdated{
+        width: 250px;
+        height: 100px;
+        top: 373px;
+        left: 26px;
+    }
+    .settingsPasswordChangeInputNames {
+        margin-bottom: 7px;
+    }    
+    .changePassword {
+        margin-left: 6px;
+        grid-gap: 25px;
+        margin-top: 45px;
+        left: 5%;
+    }
+    .settingsPageVerifyInputDiv{
+        left: 135px;
+        top: 15px;
+        height: 40px;
+        border-radius:0 5px 5px 0px;
+    }
+    .settingsPageVerifyInputDiv>p{
+        margin-top: 10px;
+    }
+    .settingsPageVerifyInput{
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    .settingsPageInfoInfo{
+        font-size: 19px;
+    }
+    .settingsPageInfo{
+        font-size: 16px;
+    }
+    .settingsPhoto>img{
+        width: 107px;
+        height: 107px;
+    }
+    .settingHeader{
+        margin-left: 36px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .settingsPasswordChangeInput{
+        font-size: 16px;
+    }
+    .settingsPasswordChangeInput{
+        width: 260px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .backgroundWithoutTopRightRectangle{
+        background: rgba(255, 230, 99, 1) !important;
+    }    
+    .allSettingsContainer{
+        width: 298px;
+    }
+    .settingsInformation{         
+        padding-top: 20px;
+        margin-left: 10px;
+        grid-gap: 15px;     
+        grid-template-areas: 
+        'photo name'
+        'photo logIn'
+        'country email'
+        'number number'
+        'verify verify';
+    }
+    .settingsPasswordChangeUpdateButton{
+        width: 260px;
+    }
+}
+
+
+@media(width:320px){ 
+    .ifSettingsPasswordUpdated>p{
+        font-size: 25px;
+    }
+    .ifSettingsPasswordUpdated{
+        width: 210px;
+        height: 82px;
+        top: 380px;
+        left: 19px;
+    }
+    .settingsPasswordChangeInputNames {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }    
+    .changePassword {
+        margin-left: 6px;
+        grid-gap: 25px;
+        margin-top: 45px;
+        left: 5%;
+    }
+    .settingsPageVerifyInputDiv{
+        width: 64px;
+        left: 131px;
+        top: 10px;
+        height: 35px;
+        border-radius:0 5px 5px 0px;
+    }
+    .settingsPageVerifyInputDiv>p{
+        margin-top: 9px;
+        font-size: 15px;
+    }
+    .settingsPageVerifyInput{
+        text-align: center;
+        width: 131px;
+        font-size: 17px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        height: 35px;
+    }
+    .settingsPageInfoInfo{
+        font-size: 15px;
+    }
+    .settingsPageInfo{
+        font-size: 15px;
+    }
+    .settingsPhoto>img{
+        width: 90px;
+        height: 90px;
+    }
+    .settingHeader{
+        margin-left: 36px;
+        margin-top: 20px;
+        font-size: 18px;
+    }    
+    .settingsPasswordChangeInput{
+        font-size: 16px;
+        width: 210px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .backgroundWithoutTopRightRectangle{
+        background: rgba(255, 230, 99, 1) !important;
+    }    
+    .allSettingsContainer{
+        width: 257px;
+    }
+    .settingsInformation{         
+        padding-top: 20px;
+        margin-left: 10px;
+        grid-gap: 15px 0px;     
+        grid-template-areas: 
+        'photo name'
+        'photo logIn'
+        'email email'
+        'country country'
+        'number number'
+        'verify verify';
+    }
+    .settingsPasswordChangeUpdateButton{
+        width: 205px;
+    }
+    .settingsPasswordChangeHeading{
+        font-size: 16px;
+    }
+}
+
+@media(width:768px){    
+    .ifSettingsPasswordUpdated>p{
+        font-size: 25px;
+    }
+    .ifSettingsPasswordUpdated{
+        width: 286px;
+        height: 100px;
+        top: 540px;
+        left: 40px;
+    }
+    .settingsPasswordChangeHeading{
+        font-size: 25px;
+    }
+    .settingsPasswordChangeInputNames {
+        margin-bottom: 13px;
+        font-size: 18px;
+    }    
+    .changePassword {        
+        margin-left: -37px;
+        grid-gap: 25px;
+        margin-top: 75px;
+    }
+    .settingsPageVerifyInputDiv{
+        width: 100px;
+        left: 200px;
+        top: 15px;
+        height: 50px;
+        border-radius:0 5px 5px 0px;
+    }
+    .settingsPageVerifyInputDiv>p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .settingsPageVerifyInput{
+        text-align: center;
+        font-size: 22px;
+        margin-left: 0px;
+        margin-top: 15px;
+        border-radius: 5px;
+        height: 50px;
+        width: 209px;
+    }
+    .settingsPageInfoInfo{
+        font-size: 28px;
+    }
+    .settingsPageInfo{
+        font-size: 25px;
+    }
+    .settingsPhoto>img{
+        width: 171px;
+        height: 172px;
+    }
+    .settingHeader{
+        margin-top: 30px;
+        font-size: 24px;
+        margin-left: 97px;
+    }   
+    .settingsPasswordChangeInput{
+        font-size: 20px;
+        width: 290px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .backgroundWithoutTopRightRectangle{
+        background: rgba(255, 230, 99, 1) !important;
+    }    
+    .allSettingsContainer{
+        width: 298px;
+    }
+    .settingsInformation{ 
+        padding-top: 30px;
+        margin-left: 200px;
+        grid-gap: 15px 35px;     
+        grid-template-areas: 
+        'photo name'
+        'photo logIn'
+        'country email'
+        'number number'
+        'verify verify';
+    }
+    .settingsPasswordChangeUpdateButton{
+        width: 157px;
+        height: 50px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+@media(width:1920px){
+    .allSettingsContainer{
+        height: 100%;
+    }
+    .settingHeader{
+        font-size: 45px;
+    }
+    .settingsPageInfo{
+        font-size: 18px;
+    }
+    .settingsPageInfoInfo{
+        font-size: 25px;
+    }
+    .settingsInformation {
+        width: 70%;
+    }
+    .settingsPageVerifyInput{
+        width: 231px;
+        height: 65px;
+        font-size: 25px;
+    }
+    .settingsPageVerifyInputDiv{
+        height: 65px;
+        top: 0px;
+        left: 150px;
+    }  
+    .settingsPageVerifyInputDiv>p{
+        margin-top: 19px;
+        font-size: 18px;
+    }
+    .ifSettingsPasswordUpdated{
+        left: 215px;
+        top: 110px;
+    }
+    .settingsPasswordChangeUpdateButton{
+        width: 201px;
+        height: 65px;
+        font-size: 25px;
+    }
+}

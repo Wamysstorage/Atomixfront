@@ -1,0 +1,121 @@
+.atomixLifeHeader{
+    margin-top: 45px;
+    margin-left: 110px;
+    font-family: Bai Jamjuree;
+    font-weight: 700;
+    font-size: 35px;
+}
+.atomixLifePackagesSide{
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.atomixLifeImage{
+    width: 650px;
+}
+
+.atomixLifePackageSlideAllPackages{
+    position: relative;
+}
+.atomixLifePackagesButton{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 40px;
+    top: 46px;
+    width: 145px;
+    position: absolute;
+    left: 482px;
+}
+.atomixLifePackagesButton:hover{
+    background-color: #FFE663;
+}
+
+@media(width:1920px){
+    .atomixLifeImage{
+        width: 989px;
+        height: 206px;
+        margin-left: 40px;
+    }
+    .atomixLifePackagesButton{
+        left: 775px;
+        width: 218px;
+        top: 73px;
+        height: 56px;
+    }
+    .atomixLifeHeader{
+        font-size: 45px;
+        margin-left: 148px;
+    }
+}
+
+@media(max-width:768px){
+    .atomixLifeImage{
+        width: 539px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .atomixLifePackagesButton{
+        left: 440px;
+        width: 120px;
+        top: 57px;
+        height: 44px;
+    }
+    .atomixLifeHeader{
+        font-size: 30px;
+        margin-left: 32px;
+    }
+    .atomixLifePackagesSide{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:480px){
+    .atomixLifeImage{
+        width: 348px;
+        height: 84px;
+        margin-top: 5px;
+    }
+    .atomixLifePackagesButton{
+        font-family: Roboto;
+        font-size: 14px;
+        left: 298px;
+        width: 79px;
+        top: 32px;
+        height: 33px;
+    }
+    .atomixLifeHeader{
+        font-size: 30px;
+        margin-left: 32px;
+    }
+    .atomixLifePackagesSide{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:1024px){
+    .atomixLifeImage{
+        width: 536px;
+        height: 144px;
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+    .atomixLifePackagesButton{
+        font-family: Roboto;
+        font-size: 18px;
+        left: 469px;
+        width: 118px;
+        top: 58px;
+        height: 39px;
+    }
+    .atomixLifeHeader{
+        font-size: 25px;
+        margin-left: 44px;
+    }
+    .atomixLifePackagesSide{
+        margin-left: 0px;
+    }
+}
